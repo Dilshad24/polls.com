@@ -1,0 +1,95 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	background: #ff8c00;
+}
+.text-secondary{
+	color: white;
+}
+.result2{
+	color: white;
+}
+
+/*  poll page start */
+.poll-container{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;align-items: center;
+	background: #fcfb95;
+
+}
+
+.pc-child{
+	margin-top: -150px;
+	height: 300px;
+	width: 500px;
+	border-radius: 5px;
+	padding-left: 50px;
+	padding-top: 30px;
+	box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.43);
+-webkit-box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.43);
+background: #fff;
+}
+.pc-child p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.pc-button{
+	display: flex;justify-content: center;align-items: center;
+	margin-top: 40px;
+	margin-left: -50px;
+
+}
+.pc-button button{
+	border-radius: 4px;
+	padding: 7px 30px;
+	border: none;
+
+	background: #fffd52;
+}
+
+/*  poll page end */
+
+/*  result page start */
+.resultcontainer{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;}
+.rc_child{
+	margin-top: -250px;
+}
+#piechart{
+	width: 1400px; 
+	height: 500px;
+}
+/*  result page ends */
+
+
+
+@media only screen and (max-width: 860px) {
+.pc-child{
+	margin-top: -150px;
+	height: 300px;
+	width: 350px;
+	border-radius: 5px;
+	padding-left: 50px;
+	padding-top: 30px;
+	box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.43);
+-webkit-box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.43);
+background: #fff;
+}
+#piechart{
+	width: 1400px; 
+	height: 400px;
+}
+
+}
