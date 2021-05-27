@@ -5,7 +5,7 @@ error_reporting(0);
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>intern</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style/bootstrap.min.css">
